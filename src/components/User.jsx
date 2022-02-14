@@ -7,7 +7,7 @@ export const User = ({ users }) => {
 
 
   const filteredItems = users.filter(user => {
-    return user.name.toLowerCase().includes(searchText)
+    return user.name.toLowerCase().includes(searchText.toLowerCase())
   })
 
   return filteredItems.map((user) => (

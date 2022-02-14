@@ -15,59 +15,55 @@ const Aside = () => {
             </span>
 
             <div class="text logo-text">
-              <span class="name">Codinglab</span>
-              <span class="profession">Web developer</span>
+              <span class="name">CRM System</span>
+              <span class="profession">by Sh. Dzhanhotov</span>
             </div>
           </div>
         </header>
 
         <div class="menu-bar">
           <div class="menu">
-            <li class="search-box">
-              <i class="bx bx-search icon"></i>
-              <input type="text" placeholder="Search..." />
-            </li>
 
             <ul class="menu-links">
               <li class="nav-link">
                 <a href="#">
                   <i class="bx bx-home-alt icon"></i>
-                  <span class="text nav-text">Dashboard</span>
+                  <span class="text nav-text">Главная</span>
                 </a>
               </li>
 
               <li class="nav-link">
                 <a href="#">
                   <i class="bx bx-bar-chart-alt-2 icon"></i>
-                  <span class="text nav-text">Revenue</span>
+                  <span class="text nav-text">Доходы</span>
                 </a>
               </li>
 
               <li class="nav-link">
                 <a href="#">
                   <i class="bx bx-bell icon"></i>
-                  <span class="text nav-text">Notifications</span>
+                  <span class="text nav-text">Уведомления</span>
                 </a>
               </li>
 
               <li class="nav-link">
                 <a href="#">
                   <i class="bx bx-pie-chart-alt icon"></i>
-                  <span class="text nav-text">Analytics</span>
+                  <span class="text nav-text">Аналитика</span>
                 </a>
               </li>
 
               <li class="nav-link">
                 <a href="#">
                   <i class="bx bx-heart icon"></i>
-                  <span class="text nav-text">Likes</span>
+                  <span class="text nav-text">Взаимодействия</span>
                 </a>
               </li>
 
               <li class="nav-link">
                 <a href="#">
                   <i class="bx bx-wallet icon"></i>
-                  <span class="text nav-text">Wallets</span>
+                  <span class="text nav-text">Общий счет</span>
                 </a>
               </li>
             </ul>
@@ -77,7 +73,7 @@ const Aside = () => {
             <li class="">
               <a href="#">
                 <i class="bx bx-log-out icon"></i>
-                <span class="text nav-text">Logout</span>
+                <span class="text nav-text">Выход</span>
               </a>
             </li>
           </div>

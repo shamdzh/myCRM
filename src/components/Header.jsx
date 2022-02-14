@@ -14,7 +14,7 @@ const Header = () => {
       <header class="search">
         <div class="search__inner">
           <div class="search__input">
-            <input type="text" value={searchText} onChange={(e) => {
+            <input type="text" placeholder="Введите текст для поиска..." value={searchText} onChange={(e) => {
               setText(e.target.value)
             }}/>
           </div>
